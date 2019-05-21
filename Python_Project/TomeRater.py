@@ -210,8 +210,8 @@ class TomeRater:
         for key, value in all_users.items():
             if value > highest_rated_user:
                 highest_rated_user = value
-                most_positive_use = key
-        return most_positive_use
+                most_positive_user = key
+        return most_positive_user
             
         
             
